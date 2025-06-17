@@ -4,8 +4,6 @@
 * `biodiversity_index.csv`: Dados históricos do índice de biodiversidade (ou percentual de espécies ameaçadas).
 * `global_co2.csv`: Dados históricos de concentração global de CO₂.
 
-**Importante:** Certifique-se de que os nomes dos arquivos CSV na pasta `data/` estejam exatamente como especificado acima para que o aplicativo funcione corretamente.
-
 ### Código Fonte (`src/`)
 
 * **`src/data/data_processing.py`**: Contém a lógica para carregar os dados históricos dos arquivos CSV e gerar projeções lineares simples para os anos futuros.
